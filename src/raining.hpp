@@ -12,7 +12,7 @@ private:
 
 public:
 
-    void AddBusiness(const std::string& name);
+    void AddNewBusiness(const std::string& name);
     void DisplayBusiness() const;
 
 };

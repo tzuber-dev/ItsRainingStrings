@@ -14,7 +14,7 @@ int main() {
         std::cout<< " Please enter the name of a business: ";
         std::getline(std::cin,busname);
 
-        sorting.AddBusiness(busname);
+        sorting.AddNewBusiness(busname);
         sorting.DisplayBusiness();
 
         std::string onemoretime;

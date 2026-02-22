@@ -12,7 +12,7 @@
 
 using namespace std;
 
-void BusinessSorting::AddBusiness(const std::string &name) {
+void BusinessSorting::AddNewBusiness(const std::string &name) {
     business2.push_back(name);
     std::sort(business2.begin(), business2.end());
 }

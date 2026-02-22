@@ -19,10 +19,10 @@ int main() {
 
         std::string onemoretime;
         std::cout<< " Include another business? ";
-        std::getline(std::cin,onemoretime);
+        std::getline(std::cin, onemoretime);
 
 
-        if (onemoretime != "Y" && onemoretime != "y" && onemoretime != "Yes" && onemoretime != "yes") {
+        if (onemoretime != "Y" && onemoretime != "y" && onemoretime != "Yes" && onemoretime != "yes" && onemoretime != " Y" && onemoretime !=" y" && onemoretime != " Yes" && onemoretime != " yes" && onemoretime != " Y" ) {
             break;
         }
         std::cout<<std::endl;
